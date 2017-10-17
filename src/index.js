@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
-import App from './App';
+import Clock from './Clock';
 
-ReactDOM.render(<App name="andré"/>, document.getElementById('root'));
+ReactDOM.render(<Clock name="andré"/>, document.getElementById('root'));
 
 registerServiceWorker();
